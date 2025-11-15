@@ -23,12 +23,13 @@ nav{
     gap: 5px;
 }
 button{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.10em;
     border: none;
+    border-radius: 5px;
 }
 .sound{
     display: flex;

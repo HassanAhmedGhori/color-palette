@@ -23,12 +23,13 @@ nav{
     gap: 5px;
 }
 button{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.10em;
     border: none;
+    border-radius: 5px;
 }
 .sound{
     display: flex;
@@ -58,7 +59,6 @@ button{
 .box{
     width: 20%;
     height: 25%;
-    background-color: #FC5C65;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,62 +77,65 @@ button{
     color: white;
     border: 2px solid white;
 }
+.box1{
+    background-color: #f3a683;
+}
 .box2{
-    background-color: #fd9644;
+    background-color: #f7d794;
 }
 .box3{
-    background-color: #FED330;
+    background-color: #778beb;
 }
 .box4{
-    background-color: #26DE81;
+    background-color: #e77f67;
 }
 .box5{
-    background-color: #2BCBBA;
+    background-color: #cf6a87;
 }
 .box6{
-    background-color: #EB3B5A;
+    background-color: #f19066;
 }
 .box7{
-    background-color: #fa8231;
+    background-color: #f5cd79;
 }
 .box8{
-    background-color: #f7b731;
+    background-color: #546de5;
 }
 .box9{
-    background-color: #20bf6b;
+    background-color: #e15f41;
 }
 .box10{
-    background-color: #0fb9b1;
+    background-color: #c44569;
 }
 .box11{
-    background-color: #45aaf2;
+    background-color: #786fa6;
 }
 .box12{
-    background-color: #4b7bec;
+    background-color: #f8a5c2;
 }
 .box13{
-    background-color: #a55eea;
+    background-color: #63cdda;
 }
 .box14{
-    background-color: #d1d8e0;
+    background-color: #ea8685;
 }
 .box15{
-    background-color: #778ca3;
+    background-color: #596275;
 }
 .box16{
-    background-color: #2d98da;
+    background-color: #574b90;
 }
 .box17{
-    background-color: #3867d6;
+    background-color: #f78fb3;
 }
 .box18{
-    background-color: #8854d0;
+    background-color: #3dc1d3;
 }
 .box19{
-    background-color: #a5b1c2;
+    background-color: #e66767;
 }
 .box20{
-    background-color: #4b6584;
+    background-color: #303952;
 }
 @media screen and (max-width: 500px) {
     .text{

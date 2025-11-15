@@ -23,12 +23,13 @@ nav{
     gap: 5px;
 }
 button{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.10em;
     border: none;
+    border-radius: 5px;
 }
 .sound{
     display: flex;
@@ -58,7 +59,6 @@ button{
 .box{
     width: 20%;
     height: 25%;
-    background-color: #FC5C65;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,67 +77,80 @@ button{
     color: white;
     border: 2px solid white;
 }
+.box1{
+    background-color: #ef5777;
+}
 .box2{
-    background-color: #fd9644;
+    background-color: #575fcf;
 }
 .box3{
-    background-color: #FED330;
+    background-color: #4bcffa;
 }
 .box4{
-    background-color: #26DE81;
+    background-color: #34e7e4;
 }
 .box5{
-    background-color: #2BCBBA;
+    background-color: #0be881;
 }
 .box6{
-    background-color: #EB3B5A;
+    background-color: #f53b57;
 }
 .box7{
-    background-color: #fa8231;
+    background-color: #3c40c6;
 }
 .box8{
-    background-color: #f7b731;
+    background-color: #0fbcf9;
 }
 .box9{
-    background-color: #20bf6b;
+    background-color: #00d8d6;
 }
 .box10{
-    background-color: #0fb9b1;
+    background-color: #05c46b;
 }
 .box11{
-    background-color: #45aaf2;
+    background-color: #ffc048;
 }
 .box12{
-    background-color: #4b7bec;
+    background-color: #ffdd59;
 }
 .box13{
-    background-color: #a55eea;
+    background-color: #ff5e57;
 }
 .box14{
-    background-color: #d1d8e0;
+    background-color: #d2dae2;
 }
 .box15{
-    background-color: #778ca3;
+    background-color: #485460;
 }
 .box16{
-    background-color: #2d98da;
+    background-color: #ffa801;
 }
 .box17{
-    background-color: #3867d6;
+    background-color: #ffd32a;
 }
 .box18{
-    background-color: #8854d0;
+    background-color: #ff3f34;
 }
 .box19{
-    background-color: #a5b1c2;
+    background-color: #808e9b;
 }
 .box20{
-    background-color: #4b6584;
+    background-color: #1e272e;
 }
 @media screen and (max-width: 500px) {
     .text{
         display: none;
     }
+    .but{
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 1em;
+    color: white;
+}
 }
 @media screen and (max-width: 400px) {
     button{
@@ -147,5 +160,15 @@ button{
     font-weight: bold;
     font-size: 0.75em;
     border: none;
+}
+.but{
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 0.75em;
+    color: white;
 }
 }
