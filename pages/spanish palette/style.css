@@ -149,7 +149,7 @@ button{
     text-transform: uppercase;
     border: 2px solid transparent;
     font-size: 1em;
-    color: white;
+    color: transparent;
 }
 }
 @media screen and (max-width: 400px) {
@@ -169,6 +169,6 @@ button{
     text-transform: uppercase;
     border: 2px solid transparent;
     font-size: 0.75em;
-    color: white;
+    color: transparent;
 }
 }
